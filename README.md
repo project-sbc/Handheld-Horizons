@@ -87,6 +87,12 @@ the app's window is open.
 
 Features a device cannot do are hidden on that device.
 
+## Contact
+
+Reach out to me at handheld.hardware@outlook.com for device support or general communication.
+
+Come join me in the Handheld Horizons channel at the Handhelds United [Discord](https://discord.gg/2ePs7bWgkM)
+
 ## Requirements
 
 - 64-bit Windows 10 (version 2004 or later) or Windows 11
