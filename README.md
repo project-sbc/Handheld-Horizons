@@ -83,7 +83,7 @@ the app's window is open.
 | Lenovo Legion Go | Full: TDP, fans, controller remapping, RGB, device buttons |
 | Lenovo Legion Go 2 | Supported, less tested than the Legion Go |
 | Other AMD handhelds and PCs | Generic: TDP, power profiles and everything that is not device-specific |
-| Other Intel handhelds and PCs | Generic: power profiles and everything that is not device-specific |
+| Other Intel handhelds and PCs | Generic: TDP, power profiles and everything that is not device-specific |
 
 Features a device cannot do are hidden on that device.
 
@@ -108,6 +108,8 @@ Come join me in the Handheld Horizons channel at the Handhelds United [Discord](
 1. Download `HandheldHorizons-SystemSetup-<version>.exe` from the
    [latest release](https://github.com/project-sbc/Handheld_Horizons/releases/latest).
 2. Run it and follow the wizard. Install PawnIO when Setup asks, if you want TDP control.
+   The installer is not code-signed yet, so Windows SmartScreen may say it is from an unknown
+   publisher: choose **More info ▸ Run anyway**.
 3. Handheld Horizons starts when Setup finishes and walks you through first-time setup.
 
 **Legion Go owners:** Legion Space and Handheld Horizons both try to control the controller,
@@ -118,7 +120,8 @@ to stop and disable it.
 About ▸ Updates. You can also run a newer installer over the top of an existing install.
 
 **Uninstalling:** use Windows Settings ▸ Apps. The uninstaller asks whether to keep your
-profiles and settings.
+profiles and settings, and, if Handheld Horizons turned Legion Space off, whether to turn it
+back on.
 
 ## Early access and support
 
@@ -137,7 +140,8 @@ Open an [issue](https://github.com/project-sbc/Handheld_Horizons/issues) and inc
 - your device and Windows version
 - the Handheld Horizons version, from the About page
 - what you did, what you expected and what happened
-- the logs from `C:\ProgramData\HandheldHorizons\logs`
+- the logs from `C:\ProgramData\HandheldHorizons\logs` (the background service) and
+  `%LocalAppData%\HandheldHorizons\logs` (the app)
 
 This repository holds releases only. The source code is not published here.
 
