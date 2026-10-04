@@ -95,13 +95,17 @@ Come join me in the Handheld Horizons channel at the Handhelds United [Discord](
 
 ## Requirements
 
-- 64-bit Windows 10 (version 2004 or later) or Windows 11
+- 64-bit Windows 11
 - Administrator rights to install, because Setup registers a Windows service
 - **[PawnIO](https://pawnio.eu/)** for TDP control. PawnIO is a separate, signed driver and is
   not bundled. Setup offers to open its download page if it is missing. Without it, TDP
   control is unavailable and everything else works.
 - **[HidHide](https://github.com/nefarius/HidHide)** (optional) to hide the controller from
   games while a Handheld Horizons menu is open. Setup can download and install it for you.
+
+> [!NOTE]
+> Handheld Horizons is also being built for Linux. Linux support is not available yet but the Linux build will come soon.
+
 
 ## Installation
 
