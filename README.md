@@ -177,3 +177,8 @@ Handheld Horizons is built on open-source work, including [Avalonia](https://ava
 [PawnIO](https://pawnio.eu/), [HidHide](https://github.com/nefarius/HidHide) and Intel's
 [PresentMon](https://github.com/GameTechDev/PresentMon). Every bundled component and the full
 text of its licence is listed in the app under About ▸ Credits ▸ Open-source licenses.
+
+### Testers
+
+I couldn't have made this better without the significant feedback contributions of users.
+* Steakbomb from Discord
