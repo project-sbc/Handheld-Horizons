@@ -36,6 +36,8 @@ the app's window is open.
 > Handheld Horizons is in **early access**. It changes low-level hardware settings and is
 > provided as is, with no warranty. Read the [disclaimer](#disclaimer) before installing.
 
+
+
 ## Features
 
 **Performance and power**
@@ -170,6 +172,10 @@ Handheld Horizons is an independent project. It is not affiliated with, endorsed
 supported by Lenovo, AMD, Intel, Microsoft, Valve or any other hardware or software vendor.
 All product names and trademarks belong to their owners. Do not contact your device's
 manufacturer for support with problems caused by this software.
+
+
+> [!NOTE]
+> Disclaimer: AI is used to develop this application. Handheld Horizons development started with my own two hands. I personally sculpted the data structures that created the foundation of this application. However, the workload became more than I could handle solo in a reasonable amount of time, so I turned to Claude Code. With that being said, I have been in the handheld software arena for over 5 years, long before AI took over programming. With every feature added, I add more unit tests to perform testing on the software to find most bugs. There are thousands of unit tests that run prior to every release and that will continue for every new feature.
 
 ## Credits
 
