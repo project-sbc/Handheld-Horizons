@@ -82,7 +82,8 @@ the app's window is open.
 
 | Device | Support |
 | :--- | :--- |
-| Lenovo Legion Go | Full: TDP, fans, controller remapping, RGB, device buttons |
+| Lenovo Legion Go | Full: TDP, fans, controller remapping, RGB, Gyro, device buttons |
+| Lenovo Legion Go S | Full: TDP, fans, controller remapping, RGB, Gyro, device buttons |
 | Lenovo Legion Go 2 | Supported, less tested than the Legion Go |
 | Other AMD handhelds and PCs | Generic: TDP, power profiles and everything that is not device-specific |
 | Other Intel handhelds and PCs | Generic: TDP, power profiles and everything that is not device-specific |
