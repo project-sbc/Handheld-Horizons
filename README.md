@@ -189,3 +189,4 @@ text of its licence is listed in the app under About ▸ Credits ▸ Open-source
 
 I couldn't have made this better without the significant feedback contributions of users.
 * Steakbomb from Discord
+* Zari from Discord
